@@ -52,9 +52,15 @@ A documentação cobre:
 
 ## 🔗 Fonte Original
 
-Este material deriva do artigo publicado no Viva o Linux:
+Conteúdo original (revisado e reestruturado) da comunidade:  
+👉 https://www.vivaolinux.com.br
 
-- https://www.vivaolinux.com.br/
+Clonezilla Official:  
+👉 https://clonezilla.org  
+
+DRBL Official:  
+👉 https://drbl.org  
+
 
 Todo o conteúdo foi reorganizado e reformatado, mantendo crédito e referência conforme diretrizes do site.
 
