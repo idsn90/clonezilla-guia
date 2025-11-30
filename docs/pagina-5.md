@@ -87,6 +87,7 @@ Exemplo: /home/edson/clonezilla
 Digite a senha do usuário quando solicitado.
 
 ![Autenticação SSH](../images/pagina-5/pag5-image7.png)
+![Expert](../images/pagina-5/pag5-image8.png)
 
 Pressione Enter para continuar.
 
@@ -94,17 +95,17 @@ Pressione Enter para continuar.
 
 # 🔹 Passo 8 — Selecionar o modo de execução
 
-Escolha: 
+Escolha: Expert
 
-![Expert](../images/pagina-5/pag5-image8.png)
+![savedisk](../images/pagina-5/pag5-image9.png)
 
 ---
 
 # 🔹 Passo 9 — Selecionar o tipo de backup
 
-Como o backup será do disco inteiro: Expert
+Como o backup será do disco inteiro: Savedisk
 
-![savedisk](../images/pagina-5/pag5-image9.png)
+![Nome do backup](../images/pagina-5/pag5-image10.png)
 
 ---
 
@@ -112,17 +113,17 @@ Como o backup será do disco inteiro: Expert
 
 Defina um nome descritivo.
 
-Exemplo: Savedisk 
+Exemplo:  backup_sda_ssh_2025
 
-![Nome do backup](../images/pagina-5/pag5-image10.png)
+![Origem do disco](../images/pagina-5/pag5-image11.png)
 
 ---
 
 # 🔹 Passo 11 — Selecionar o disco de origem
 
-Exemplo: backup_sda_ssh_2025
+Exemplo: 
 
-![Origem do disco](../images/pagina-5/pag5-image11.png)
+![Prioridade](../images/pagina-5/pag5-image12.png)
 
 ---
 
@@ -130,7 +131,7 @@ Exemplo: backup_sda_ssh_2025
 
 Recomendado: sda
 
-![Prioridade](../images/pagina-5/pag5-image12.png)
+![Parâmetros extras](../images/pagina-5/pag5-image13.png)
 
 ---
 
@@ -138,7 +139,7 @@ Recomendado: sda
 
 Mantenha os padrões marcados.
 
-![Parâmetros extras](../images/pagina-5/pag5-image13.png)
+![gzip](../images/pagina-5/pag5-image14.png)
 
 ---
 
@@ -146,7 +147,7 @@ Mantenha os padrões marcados.
 
 Recomendado: -c e j2
 
-![gzip](../images/pagina-5/pag5-image14.png)
+![Split size](../images/pagina-5/pag5-image15.png)
 
 ---
 
@@ -154,7 +155,7 @@ Recomendado: -c e j2
 
 Recomendado para grandes arquivos: -z1
 
-![Split size](../images/pagina-5/pag5-image15.png)
+![Skip checking](../images/pagina-5/pag5-image16.png)
 
 ---
 
@@ -162,7 +163,7 @@ Recomendado para grandes arquivos: -z1
 
 Escolha: 3000
 
-![Skip checking](../images/pagina-5/pag5-image16.png)
+![Verificação](../images/pagina-5/pag5-image17.png)
 
 ---
 
@@ -172,7 +173,7 @@ Escolha:
 
 E após finalização: Sim, verificar a imagem salva
 
-![Verificação](../images/pagina-5/pag5-image17.png)
+![Backup via SSH 1](../images/pagina-5/pag5-image18.png)
 
 Pressione Enter e confirme com **y**.
 
@@ -181,8 +182,6 @@ Pressione Enter e confirme com **y**.
 # 🔹 Processo de Backup via SSH
 
 O Clonezilla enviará dados criptografados via SSH:
-
-![Backup via SSH 1](../images/pagina-5/pag5-image18.png)
 
 ![Backup via SSH 2](../images/pagina-5/pag5-image19.png)
 
