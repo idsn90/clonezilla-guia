@@ -24,6 +24,7 @@ Escolha: local_dev
 Isso indica que a imagem será salva em um dispositivo conectado diretamente à máquina.
 
 ![local_dev](../images/pagina-3/pag3-image2.png)
+![Seleção de partição destino](../images/pagina-3/pag3-image3.png)
 
 Aguarde alguns segundos para montar pendrives e discos USB.
 
@@ -37,7 +38,7 @@ O Clonezilla listará todas as partições disponíveis.
 
 Exemplo: sdb3
 
-![Seleção de partição destino](../images/pagina-3/pag3-image3.png)
+![Selecionar diretório](../images/pagina-3/pag3-image4.png)
 
 ---
 
@@ -47,7 +48,7 @@ Selecione a pasta onde será gravada a imagem.
 
 Se o disco só tem uma pasta, ela aparecerá automaticamente.
 
-![Selecionar diretório](../images/pagina-3/pag3-image4.png)
+![Selecionar diretório](../images/pagina-3/pag3-image5.png)
 
 Pressione Enter para continuar.
 
@@ -59,7 +60,7 @@ Escolha: Expert
 
 Assim podemos personalizar parâmetros importantes.
 
-![Modo Expert](../images/pagina-3/pag3-image5.png)
+![Modo Expert](../images/pagina-3/pag3-image6.png)
 
 ---
 
@@ -69,7 +70,7 @@ Como o backup será de uma **partição**, selecione: saveparts
 
 Para backup de disco completo, seria: savedisk
 
-![saveparts](../images/pagina-3/pag3-image6.png)
+![saveparts](../images/pagina-3/pag3-image7.png)
 
 ---
 
@@ -77,7 +78,7 @@ Para backup de disco completo, seria: savedisk
 
 Defina um nome descritivo, por exemplo: backup_sda1_2025
 
-![Nome do backup](../images/pagina-3/pag3-image7.png)
+![Nome do backup](../images/pagina-3/pag3-image8.png)
 
 ---
 
@@ -85,7 +86,7 @@ Defina um nome descritivo, por exemplo: backup_sda1_2025
 
 Exemplo: sda1
 
-![Origem do backup](../images/pagina-3/pag3-image8.png)
+![Origem do backup](../images/pagina-3/pag3-image9.png)
 
 ---
 
@@ -93,7 +94,7 @@ Exemplo: sda1
 
 Para dar prioridade ao Partclone: -q2
 
-![Prioridade q2](../images/pagina-3/pag3-image9.png)
+![Prioridade q2](../images/pagina-3/pag3-image10.png)
 
 ---
 
@@ -104,7 +105,7 @@ Deixe habilitados:
 - `-c`  
 - `-j2`  
 
-![Parâmetros -c e -j2](../images/pagina-3/pag3-image10.png)
+![Parâmetros -c e -j2](../images/pagina-3/pag3-image11.png)
 
 ---
 
@@ -114,7 +115,7 @@ Escolha o tipo de compressão, recomendamos: -z1 (gzip)
 
 Equilíbrio ideal entre tamanho e velocidade.
 
-![gzip](../images/pagina-3/pag3-image11.png)
+![gzip](../images/pagina-3/pag3-image12.png)
 
 ---
 
@@ -124,7 +125,7 @@ Define o tamanho máximo de cada parte do backup.
 
 Recomendado para grandes imagens: 5000 MB
 
-![Split size](../images/pagina-3/pag3-image12.png)
+![Split size](../images/pagina-3/pag3-image13.png)
 
 ---
 
@@ -132,7 +133,7 @@ Recomendado para grandes imagens: 5000 MB
 
 Escolha: Skip checking/repairing source file system
 
-![Skip checking](../images/pagina-3/pag3-image13.png)
+![Skip checking](../images/pagina-3/pag3-image14.png)
 
 ---
 
@@ -140,7 +141,7 @@ Escolha: Skip checking/repairing source file system
 
 Selecione: Sim, verificar a imagem salva
 
-![Verificação](../images/pagina-3/pag3-image14.png)
+![Verificação](../images/pagina-3/pag3-image15.png)
 
 Defina o que fazer ao final do processo: -p true
 
@@ -157,9 +158,9 @@ O Clonezilla começará:
 - Dividindo arquivos (se configurado)  
 - Verificando integridade
 
-![Backup em andamento](../images/pagina-3/pag3-image15.png)
+![Backup em andamento](../images/pagina-3/pag3-image16.png)
 
-![Verificação final](../images/pagina-3/pag3-image16.png)
+![Verificação final](../images/pagina-3/pag3-image17.png)
 
 ---
 
