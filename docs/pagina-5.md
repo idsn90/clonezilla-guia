@@ -121,7 +121,7 @@ Exemplo:  ssh-image-disk-2012-11-28-01-img
 
 # 🔹 Passo 11 — Selecionar o disco de origem
 
-Exemplo: 
+Exemplo: sda
 
 ![Prioridade](../images/pagina-5/pag5-image12.png)
 
@@ -129,7 +129,7 @@ Exemplo:
 
 # 🔹 Passo 12 — Ajustar prioridade
 
-Recomendado: sda
+Recomendado: -q2
 
 ![Parâmetros extras](../images/pagina-5/pag5-image13.png)
 
@@ -137,7 +137,7 @@ Recomendado: sda
 
 # 🔹 Passo 13 — Parâmetros adicionais
 
-Mantenha os padrões marcados.
+Mantenha os padrões marcados (-c e j2).
 
 ![gzip](../images/pagina-5/pag5-image14.png)
 
@@ -145,7 +145,7 @@ Mantenha os padrões marcados.
 
 # 🔹 Passo 14 — Tipo de compressão
 
-Recomendado: -c e j2
+Recomendado: -z1
 
 ![Split size](../images/pagina-5/pag5-image15.png)
 
@@ -153,7 +153,7 @@ Recomendado: -c e j2
 
 # 🔹 Passo 15 — Divisão da imagem (opcional)
 
-Recomendado para grandes arquivos: -z1
+Recomendado para grandes arquivos: 3000
 
 ![Skip checking](../images/pagina-5/pag5-image16.png)
 
@@ -161,7 +161,7 @@ Recomendado para grandes arquivos: -z1
 
 # 🔹 Passo 16 — Verificação do sistema de arquivos
 
-Escolha: 3000
+Escolha: 
 
 ![Verificação](../images/pagina-5/pag5-image17.png)
 
