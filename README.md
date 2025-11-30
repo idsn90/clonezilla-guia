@@ -66,7 +66,7 @@ A documentação deste repositório é distribuída sob a **Licença de Document
 
 ---
 
-## 📌 Parte 2 (em desenvolvimento)
+## 📌 Parte 2
 
 A segunda parte do guia cobrirá:
 
@@ -76,6 +76,7 @@ A segunda parte do guia cobrirá:
 - Servidor central de imagens  
 - Procedimentos avançados  
 
+Link: https://github.com/ivandneto/Clonezilla-Image-Server
 ---
 
 ## 💬 Contribuições
