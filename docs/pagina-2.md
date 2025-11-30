@@ -34,7 +34,7 @@ O Clonezilla mostrará duas opções:
 - **device-image** → trabalhar com imagens (backup/restauração)
 - **device-device** → clone direto entre dispositivos
 
-Selecionamos:
+Selecionamos: device-device
 
 ![Modo device-device](../images/pagina-2/pag2-image2.png)
 
@@ -56,7 +56,7 @@ Neste guia:
 
 # 🔹 Passo 3 — Escolha o tipo de clone
 
-Selecione:
+Selecione: disk_to_local_disk
 
 Isto clona **um disco inteiro para outro disco local**.
 
@@ -68,7 +68,7 @@ Isto clona **um disco inteiro para outro disco local**.
 
 Informe qual disco será clonado.
 
-Exemplo:
+Exemplo: sda (disco de origem)
 
 ![Seleção do disco de origem](../images/pagina-2/pag2-image5.png)
 
@@ -78,7 +78,7 @@ Exemplo:
 
 O disco selecionado aqui será **totalmente sobrescrito**.
 
-Exemplo:
+Exemplo: sdb (disco de destino)
 
 ![Seleção do disco de destino](../images/pagina-2/pag2-image6.png)
 
@@ -99,7 +99,7 @@ Para sistemas Windows/NTFS, desabilite:
 
 # 🔹 Passo 7 — Escolha o comportamento de verificação
 
-Selecionar:
+Selecionar: Skip checking/repairing source file system
 
 ![Skip checking](../images/pagina-2/pag2-image8.png)
 
@@ -107,7 +107,7 @@ Selecionar:
 
 # 🔹 Passo 8 — Parâmetro de tabela de partição
 
-Escolher:
+Escolher: -k1 (criar nova tabela proporcional ao disco de destino)
 
 ⚠ Útil quando o disco de destino é maior.
 
@@ -149,10 +149,10 @@ Partição clonada corretamente e pronta para uso.
 
 # 🔹 Para clonar apenas a partição
 
-Repita os mesmos passos, porém selecione:
+Repita os mesmos passos, porém selecione: part_to_local_part
 
 
-E use o parâmetro:
+E use o parâmetro: -k
 
 
 ![Clonagem de partição](../images/pagina-2/pag2-image13.png)
