@@ -113,7 +113,7 @@ Como o backup será do disco inteiro: Savedisk
 
 Defina um nome descritivo.
 
-Exemplo:  backup_sda_ssh_2025
+Exemplo:  ssh-image-disk-2012-11-28-01-img
 
 ![Origem do disco](../images/pagina-5/pag5-image11.png)
 
